@@ -2,7 +2,7 @@ from flask import Flask, request, redirect, render_template
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
-
+# ok
 # Update the database URI with the provided credentials
 db_uri = 'mysql+pymysql://facebook_blindcity:59257e84d141d92bd5434c4f9c800c6ea897ef0f@cxr.h.filess.io:3307/facebook_blindcity'
 app.config['SQLALCHEMY_DATABASE_URI'] = db_uri
